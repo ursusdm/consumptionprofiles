@@ -39,8 +39,6 @@ URSUS-CONSUMPTIONPROFILES is a script that allows generating models to character
 
 ### Technologies
 
-La tecnología empleada actualmente para el desarrollo de la aplicación es la siguiente:
-
 * Python
 * Pyspark
 * Jupyter Notebook
@@ -112,10 +110,4 @@ Francisco Rodríguez Gómez  - francisco.rdg.gmz@uma.es
 * This work has been supported by the projectRTI2018-095097-BI00 in the 
 call for projects I+D+i 2018 from Ministerio de Ciencia, Innovación 𝑦 Universidades, España.
 
-[product-screenshot-1]: 1.png
-[product-screenshot-2]: 2.png
-[product-screenshot-3]: 3.png
-[product-screenshot-4]: 4.png
-[product-screenshot-5]: 5.png
-[product-screenshot-6]: 6.png
-[product-screenshot-7]: 7.png
+
