@@ -1,4 +1,4 @@
-# consumptionprofiles<!--
+<!--
 *** Thanks for checking out this README Template. If you have a suggestion that would
 *** make this better, please fork the repo and create a pull request or simply open
 *** an issue with the tag "enhancement".
@@ -27,12 +27,7 @@
     <img src="ursus_all.png">
   </a>
 
-  <h3 align="center">Herramienta que permite estimar la temperatura(LST) en cualquier punto de cualquier ciudad, analizando las características urbanas (edificios, vegetación, agua, ...) detectadas en el radio de 1 km. a la redonda. El sistema permite simular la temperatura que tendrían diferentes escenarios añadiendo diferentes elementos de infraestructura verde </h3>
-
-  <p align="center">
-    Conoce de forma simple e intuitiva como mejoraría la temperatura en las zonas más desfavorables de cualquier ciudad añadiendo infraestructuras verdes  con tan sólo unos "clicks". 
-  </p>
-
+  <h3 align="center"Tool that allows generating clustering models to characterize household electricity consumption profiles. It includes an implementation of the k-ISAC algorithm, an algorithm for determining the optimal number of clusters by analyzing two curves with quality indicators of the clustering models (the MAE curve of the models, and the curve with the number of small clusters that has each model) </h3>
 
 
 <!-- TABLE OF CONTENTS -->
@@ -51,136 +46,87 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## Sobre el proyecto
+## About the project
 
-URSUS-LST_PREDICTION  es una herramienta de ayuda para la toma de decisiones en cuanto a la determinación de la ubicación óptima para la instalación de infraestructuras verdes en las ciudades, y en cuanto a la selección del tipo adecuado de infraestructura.
+URSUS-CONSUMPTIONPROFILES is a script that allows generating models to characterize household electricity consumption profiles using big data clustering algorithms. It includes an implementation of the k-ISAC algorithm, an algorithm for determining the optimal number of clusters by analyzing two curves with quality indicators of the clustering models (the MAE curve of the models, and the curve with the number of small clusters that has each model)
 
 ...
 
-### Tecnologías
+### Technologies
 
 La tecnología empleada actualmente para el desarrollo de la aplicación es la siguiente:
 
-* [R](https://cran.r-project.org/)
-* [R-Studio](https://rstudio.com/)
-* [R-Shiny](https://shiny.rstudio.com/)
-* Librerías de R para trabajar con imágenes Lidar (Lidr) y satelitales (raster)
-* [Lidar](http://centrodedescargas.cnig.es/CentroDescargas/index.jsp)
-* Landsat-8 satellite images of the city to be analized+
-* Sentinel-2 satellite images of the city to be analized
+* Python
+* Pyspark
+* Jupyter Notebook
+* MLIB
+  
+ ### Datasets
+
+ Any dataset where each row represents the hourly consumption (24 hours) of the day for any consumer. 
+ The datasets that have been used for the publication of the article are private, so they cannot be uploaded to the repository.
+
+  ### Script content
+  
+  The script implements the following functionalities:
+  
+  * Generation clustering models using big data k-means algorithm for kMin and kMax values for the number of clusters
+  * Calculation the MAE of each model
+  * Calculation the number of small cluster of each model
+  * Determination of optimal k-value analyzing the MAE for model curve, and the curve with the number of small clusters for each model. (k-ISAC algorithm) 
+
+### Requirements
+
+In order to run the script without problem, it is necessaryis necessary to have installed:
+
+* Jupyter Notebook (Environment to execute the parts of interest of the script). Script has comments on the main functionalities that each code cell implements.
+* Python (main script language)
+* Pyspark (spark with python)
+* MLIB (machine Learning with Spark Library)
 
 
-
-<!-- Cómo empezar? -->
-## Cómo empezar?
+### Instalation
 
 
-Para obtener una copia de la aplicación, conocer los requisitos previos para su correcto funcionamiento y los pasos para su instalación, y como hacer uso de la misma, puede seguir los siguientes pasos.
-
-### Prerrequisitos
-
-Para el correcto funcionamiento del DashBoard o aplicación web, será necesario tener conexión a internet e instalar previamente R, R-Shiny, y el resto de librerías necesarias que se describen en el código del servidor (server.r) y en el código de la interfaz gráfica del dashboard (ui.r)
-
-* R
-* R-Shiny
-* R-libraries
-* Conección a internet
-
-
-
-### Instalación
-
-
-1. Clonar el repositorio
+1. Clone repo
 ```sh
-git clone https://github.com/ursusdm/URSUS_LST_PREDICTION.git
+git clone  https://github.com/ursusdm/consumptionprofile.git
 ```
-2. Lanzar la aplicación en un servidor shiny
-
-
-
-<!-- USAGE EXAMPLES -->
-## Uso
-
-* Navegue por el mapa y seleccione un punto 
-* Realice la predicción de la temperatura (Predecir LST)
-* El sistema analizará los elementos urbanos a 1km. a la redonda
-* El sistema mostrará los % de cada elemento urbano detectado (veg. escasa, densa, agua, edificios>12m, ...) en intervalos de 250m
-* El sistema mostrará la temperatura predicha (LST predicha por el modelo) y la temperatura real en el punto
-* El sistema permite la simulación de nuevos escenarios modificando los % de vegetación densa, moderada y escasa entre 0-250m.
-
-
-  <a>
-    <img src="1.png">
-  </a>
-    <a>
-    <img src="2.png">
-  </a>
-    <a>
-    <img src="3.png">
-  </a>
-    <a>
-    <img src="4.png">
-  </a>
-    <a>
-    <img src="5.png">
-  </a>
-  </a>
-    <a>
-    <img src="percents.png">
-  </a>
-    <a>
-    <img src="6.png">
-  </a>
-    <a>
-    <img src="7.png">
-  </a>
-
+2. ** Open script with jupyter notebook and run cells **
 
 <!-- CONTRIBUTING -->
 ## Contribuciones
 
-1. Clonar el proyecto
+1. Clone project
 ```sh
-git clone https://github.com/ursusdm/ursusdm_pv.git
+git clone https://github.com/ursusdm/ursusdm_pv.git](https://github.com/ursusdm/consumptionprofile.git
 ```
-3. Commit. Preparar los cambios que se subirán a GitHub con un nombre representativo
+3. Commit. 
 ```sh
 git commit -m 'Add some Amazing Feature'
 ```
-4. Push. Subir los cambios locales a GitHub
+4. Push. Upload changes to GitHub
 ```sh
 git push
 ```
 
-5. Para descargar en local el código actual de la rama, realize un Pull 
-
-
+5.To download the current branch code locally, perform a Pull
 
 <!-- CONTACT -->
-## Contacto
+## Contact
 
-Luis Pérez Urrestarazu  - lperez@us.es
-</br>
 José del Campo Ávila  - jcampo@uma.es
 </br>
-Domingo López Rodríguez  - dominlopez@uma.es
+Llanos Mora Lopez  - llanos@uma.es
 </br>
 Francisco Rodríguez Gómez  - francisco.rdg.gmz@uma.es
 
 
-<!-- CONTACT -->
-## Aplicación
+ 
+## ACKNOWLEDGEMENTS
 
-<!-- La aplicación está disponible en el siguiente enlace
-
-Project Link: [https://ursusdm.shinyapps.io/ursusdm_pv/](https://ursusdm.shinyapps.io/ursusdm_lst_pred/)  -->
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Agradecimientos
-
-* Este trabajo ha sido apoyado por el proyecto RTI2018-095097-BI00 en la convocatoria de Proyectos I+D+i 2018 del Ministerio de Ciencia, Innovación 𝑦 Universidades, España.
+* This work has been supported by the projectRTI2018-095097-BI00 in the 
+call for projects I+D+i 2018 from Ministerio de Ciencia, Innovación 𝑦 Universidades, España.
 
 [product-screenshot-1]: 1.png
 [product-screenshot-2]: 2.png
