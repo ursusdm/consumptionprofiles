@@ -107,7 +107,7 @@ Francisco Rodríguez Gómez  - francisco.rdg.gmz@uma.es
  
 ## ACKNOWLEDGEMENTS
 
-* This work has been supported by the projectRTI2018-095097-BI00 in the 
-call for projects I+D+i 2018 from Ministerio de Ciencia, Innovación 𝑦 Universidades, España.
+* This work has been supported by the project RTI2018-095097-BI00 in the 
+call for projects I+D+i 2018 from Ministerio de Ciencia, Innovación 𝑦 Universidades, Spain.
 
 
