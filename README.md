@@ -56,7 +56,7 @@ URSUS-CONSUMPTIONPROFILES is a script that allows generating models to character
   * Generation clustering models using big data k-means algorithm for kMin and kMax values for the number of clusters
   * Calculation the MAE of each model
   * Calculation the number of small cluster of each model
-  * Determination of optimal k-value analyzing the MAE for model curve, and the curve with the number of small clusters for each model. (k-ISAC algorithm) 
+  * Determination of optimal k-value analyzing the MAE for each model curve, and the curve with the number of small clusters for each model. (k-ISAC algorithm) 
 
 ### Requirements
 
