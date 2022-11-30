@@ -30,21 +30,6 @@
   <h3 align="center"Tool that allows generating clustering models to characterize household electricity consumption profiles. It includes an implementation of the k-ISAC algorithm, an algorithm for determining the optimal number of clusters by analyzing two curves with quality indicators of the clustering models (the MAE curve of the models, and the curve with the number of small clusters that has each model) </h3>
 
 
-<!-- TABLE OF CONTENTS -->
-## Contenidos
-
-* [Sobre el proyecto](#sobre-el-proyecto)
-  * [Tecnologías](#Tecnologías)
-* [Cómo empezar?](#Cómo_empezar?)
-  * [Prerrequisitos](#Prerrequisitos)
-  * [Instalación](#Instalación)
-* [Uso](#Uso)
-* [Contribuciones](#Contribuciones)
-* [Contacto](#Contacto)
-* [Agradecimientos](#Agradecimientos)
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About the project
 
@@ -99,7 +84,7 @@ git clone  https://github.com/ursusdm/consumptionprofile.git
 
 1. Clone project
 ```sh
-git clone https://github.com/ursusdm/ursusdm_pv.git](https://github.com/ursusdm/consumptionprofile.git
+git clone https://github.com/ursusdm/consumptionprofile.git
 ```
 3. Commit. 
 ```sh
