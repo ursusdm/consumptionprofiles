@@ -62,7 +62,7 @@ URSUS-CONSUMPTIONPROFILES is a script that allows generating models to character
 
 In order to run the script without problem, it is necessaryis necessary to have installed:
 
-* Jupyter Notebook (Environment to execute the parts of interest of the script). Script has comments on the main functionalities that each code cell implements.
+* Jupyter Notebook (Environment to run script cells). Script has comments on the main functionalities that each code cell implements.
 * Python (main script language)
 * Pyspark (spark with python)
 * MLIB (machine Learning with Spark Library)
