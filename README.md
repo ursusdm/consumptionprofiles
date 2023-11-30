@@ -36,7 +36,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About the project
 
-URSUS-CONSUMPTIONPROFILES is a script that allows generating models to characterize household electricity consumption profiles using big data clustering algorithms. It includes an implementation of the k-ISAC algorithm, an algorithm for determining the optimal number of clusters by analyzing two curves with quality indicators of the clustering models (the MAE curve of the models, and the curve with the number of small clusters that has each model)
+URSUS-CONSUMPTIONPROFILES is a script that implements a methodology to characterize the domestic electricity consumption profiles of any city using clustering algorithms and a new algorithm that allows determining the optimal number of clusters that best represents the consumption profiles.
 
 ...
 
