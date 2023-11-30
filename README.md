@@ -78,22 +78,6 @@ git clone  https://github.com/ursusdm/consumptionprofile.git
 2. ** Open script with jupyter notebook and run cells **
 
 
-## Management
-  
-A) Upload changes
-  
-1. Commit
-```sh
-git commit -m 'Add some Amazing Feature'
-```
-2. Push. Upload changes to GitHub
-```sh
-git push
-```
-B) Download code from branch
-  
-To download the current branch code locally, perform a Pull
-
 <!-- CONTACT -->
 ## Contact
 
