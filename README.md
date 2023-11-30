@@ -64,8 +64,8 @@ For a more detailed description of the  methodology and K_ISAC_TLP algorithm you
   
   * Generation clustering models using big data k-means algorithm for kMin and kMax values for the number of clusters
   * Calculation the MAE of each model
-  * Calculation the number of small cluster of each model
-  * Determination of optimal k-value analyzing the MAE for each model curve, and the curve with the number of small clusters for each model. (k-ISAC algorithm) 
+  * Calculation the number of small cluster of each model (less than 1% of the total observations)
+  * Calculation of optimal k-value (best model) analyzing the MAE for each model curve, and the curve with the number of small clusters for each model aplying k-ISAC algorithm. 
 
 ### Requirements
 
