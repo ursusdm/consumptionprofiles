@@ -36,7 +36,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About the project
 
-URSUS-CONSUMPTIONPROFILES is a script that implements a methodology to characterize the domestic electricity consumption profiles of any city using clustering algorithms and a new algorithm that allows determining the optimal number of clusters that best represents the consumption profiles.
+URSUS_CONSUMPTION_PROFILES is a script that implements a methodology to characterize the domestic electricity consumption profiles of any city using clustering algorithms and a new algorithm that allows determining the optimal number of clusters that best represents the consumption profiles.
 
 ...
 
