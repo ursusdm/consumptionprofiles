@@ -84,7 +84,7 @@ In order to run the script without problem, it is necessaryis necessary to have 
 ```sh
 git clone  https://github.com/ursusdm/consumptionprofile.git
 ```
-2. ** Open script with jupyter notebook and run cells **
+2. **Open script with jupyter notebook and run cells**
 
 
 <!-- CONTACT -->
