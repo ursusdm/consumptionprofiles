@@ -27,11 +27,10 @@
 
   <h3 align="center"Tool that allows generating clustering models to characterize household electricity consumption profiles. It includes an implementation of the k-ISAC algorithm, an algorithm for determining the optimal number of clusters by analyzing two curves with quality indicators of the clustering models (the MAE curve of the models, and the curve with the number of small clusters that has each model) </h3>
 
-      Methodology
-    <img width="850" alt="Captura de pantalla 2023-11-30 a las 9 21 18" src="https://github.com/ursusdm/consumptionprofiles/assets/68539118/e5465a36-1241-4a35-9017-1ff8f0ea205c">
-    ISAC algorithm
-    <img width="850" alt="Captura de pantalla 2023-11-30 a las 9 23 03" src="https://github.com/ursusdm/consumptionprofiles/assets/68539118/536a51f8-3e27-4ff1-bf16-1c2fe056cd57">
 
+<img width="845" alt="Captura de pantalla 2023-11-30 a las 9 24 39" src="https://github.com/ursusdm/consumptionprofiles/assets/68539118/a522fb30-ebc9-4bc2-b25b-c6e53ead6f0f">
+
+<img width="797" alt="Captura de pantalla 2023-11-30 a las 9 24 54" src="https://github.com/ursusdm/consumptionprofiles/assets/68539118/082aff04-66fe-477e-bad1-953e001784bb">
 
 
 <!-- ABOUT THE PROJECT -->
