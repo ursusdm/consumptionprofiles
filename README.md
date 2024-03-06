@@ -82,7 +82,7 @@ In order to run the script without problem, it is necessaryis necessary to have 
 
 1. Clone repo
 ```sh
-git clone  https://github.com/ursusdm/consumptionprofile.git
+git clone  https://github.com/ursusdm/consumptionprofiles.git
 ```
 2. **Open script with jupyter notebook and run cells**
 
