@@ -97,6 +97,11 @@ Llanos Mora Lopez  - llanos@uma.es
 Francisco Rodríguez Gómez  - francisco.rdg.gmz@uma.es
 
 
+## Publications
+
+10.1016/j.engappai.2023.107653
+
+
  
 ## ACKNOWLEDGEMENTS
 
